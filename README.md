@@ -12,9 +12,9 @@ Görevlerin tam açıklaması **Föy 02 PDF**'indedir; bu dosya kısa bir hatır
 ## Hızlı başlangıç
 
 ```bash
-echo "230541001" > ogrno.txt              # kendi numaranız
+echo "240541142" > ogrno.txt              # kendi numaranız
 docker compose up -d
-python3 veri/uret.py 230541001            # kendi numaranız → 4 CSV üretir
+python3 veri/uret.py 240541142           # kendi numaranız → 4 CSV üretir
 docker exec -it vtys-postgres psql -U vtys -d vtysdb
 ```
 
